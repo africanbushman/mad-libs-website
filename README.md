@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a website that shows my progress as a software developer and this repository deals making forms JavaScript and jquery.  
+This is a website that shows my progress as a software developer and this repository deals with making  interactive forms using JavaScript and jquery.  
 
 ## Setup/Installation Requirements
 
