@@ -1,5 +1,12 @@
 $(document).ready(function() {
        $("#blanks form").submit(function() {
+        var person1Input = $("input#person1").val();
+        var person2Input = $("input#person2").val();
+        var animalInput= $("input#animal").val();
+        var exclamationInput = $("input#exclamation").val();
+        var verbInput = $("input#verb").val();
+        var nounInput = $("input#noun").val();
+
          $(".person1").append("blah blah");
          $(".person2").append("blah blah");
          $(".animal").append("blah blah");
@@ -8,6 +15,7 @@ $(document).ready(function() {
          $(".noun").append("blah blah");
 
          $("#story").show();
+
+         event.preventDefault();
        });
      });
-   
